@@ -11,60 +11,51 @@ package psv;
 public class CarroBean {
 
     private String placa;
-           
     private String cor;
-    
     private String descricao;
-    
-    public String getCor(){
-        return cor;
-        
-    }
-    
-    public void setCor(String cor){
-        this.cor = cor;
-    }
-    
-    public String getDescricao(){
-        return descricao;
-        
-    }
-    
-    public void setDescricao(String descricao){
-        this.descricao = descricao;
-    }
-    
-    public String getPlaca(){
+
+    /**
+     * @return the placa
+     */
+    public String getPlaca() {
         return placa;
-        
     }
-    
-    public void setPlaca(String placa){
+
+    /**
+     * @param placa the placa to set
+     */
+    public void setPlaca(String placa) {
         this.placa = placa;
     }
-    
-    
-    
-        private String string;
 
     /**
-     * Get the value of string
-     *
-     * @return the value of string
+     * @return the cor
      */
-    public String getString() {
-        return string;
+    public String getCor() {
+        return cor;
     }
 
     /**
-     * Set the value of string
-     *
-     * @param string new value of string
+     * @param cor the cor to set
      */
-    public void setString(String string) {
-        this.string = string;
+    public void setCor(String cor) {
+        this.cor = cor;
     }
 
-    
-    
-}
+    /**
+     * @return the descricao
+     */
+    public String getDescricao() {
+        return descricao;
+    }
+
+    /**
+     * @param descricao the descricao to set
+     */
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+ 
+    }
+

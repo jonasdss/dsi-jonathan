@@ -13,7 +13,7 @@ public class Conexao {
         
         Connection con = null;
     
-        try{
+        try{                   
         Class.forName("com.mysql.jdbc.Driver").newInstance();
         String url = "";
         
@@ -31,7 +31,7 @@ public class Conexao {
         } catch (ClassNotFoundException e ){
             System.out.println(e.getMessage());
             
-        } catch (Exception e){
+        } catch (Exception e) {
             System.out.println(e.getMessage());
             
         }
@@ -44,8 +44,7 @@ public class Conexao {
         
        try {
            con.close();
-           System.out.println("Conexão Fechada. ");
-           
+           System.out.println("Conexão Fechada. ");           
            
         } catch (SQLException e){
             System.out.println(e.getMessage());
@@ -54,8 +53,7 @@ public class Conexao {
             System.out.println(e.getMessage());
             
         }
-        
-        
+               
     }
     
 }
